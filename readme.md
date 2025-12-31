@@ -22,7 +22,6 @@ Provide probability-based confidence scores
 
 Build a deployable and reproducible ML system
 
-Demonstrate production-ready ML skills for portfolio and recruiters
 
 Dataset Description
 
