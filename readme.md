@@ -1,5 +1,6 @@
 Heart Disease Prediction Using Machine Learning:  https://online-heart-disease-prediction.streamlit.app/
- Project Overview
+
+Project Overview
 
 Heart disease remains one of the leading causes of death worldwide. Early detection plays a crucial role in prevention and effective treatment.
 This project builds an end-to-end Machine Learning pipeline to predict the likelihood of heart disease using clinical and demographic data, and deploys the model as an interactive Streamlit web application.
