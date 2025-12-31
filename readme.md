@@ -1,5 +1,5 @@
-❤️ Heart Disease Prediction Using Machine Learning
-📌 Project Overview
+Heart Disease Prediction Using Machine Learning
+ Project Overview
 
 Heart disease remains one of the leading causes of death worldwide. Early detection plays a crucial role in prevention and effective treatment.
 This project builds an end-to-end Machine Learning pipeline to predict the likelihood of heart disease using clinical and demographic data, and deploys the model as an interactive Streamlit web application.
@@ -14,7 +14,7 @@ Model persistence (joblib)
 
 Interactive prediction UI using Streamlit
 
-🎯 Objectives
+Objectives
 
 Predict whether a patient is at risk of heart disease
 
@@ -24,7 +24,7 @@ Build a deployable and reproducible ML system
 
 Demonstrate production-ready ML skills for portfolio and recruiters
 
-📊 Dataset Description
+Dataset Description
 
 The dataset consists of clinical records of 303 patients, commonly used in heart disease research.
 
@@ -49,7 +49,7 @@ Target Variable
 
 1 → Heart Disease
 
-🧠 Machine Learning Approach
+Machine Learning Approach
 Model Used
 
 Logistic Regression
@@ -68,7 +68,7 @@ Feature alignment enforced during inference
 
 Train/Test split for unbiased evaluation
 
-📈 Model Evaluation
+Model Evaluation
 Metrics Used
 
 Accuracy
@@ -101,7 +101,7 @@ False Positives
 
 False Negatives
 
-🚀 Deployment (Streamlit App)
+Deployment (Streamlit App)
 
 An interactive Streamlit web application allows users to:
 
@@ -123,7 +123,7 @@ Probability bar chart using Plotly
 
 Medical disclaimer for ethical use
 
-🗂️ Project Structure
+Project Structure
 heart-disease-prediction/
 │
 ├── app.py                     # Streamlit application
@@ -134,7 +134,7 @@ heart-disease-prediction/
 ├── requirements.txt           # Dependencies
 └── README.md                  # Project documentation
 
-💾 Model Persistence
+Model Persistence
 
 The trained artifacts are saved using joblib:
 
@@ -145,12 +145,12 @@ model_data = {
 joblib.dump(model_data, "heart_disease_model.pkl")
 
 
-⚠️ Disclaimer
+Disclaimer
 
 This project is for educational and demonstration purposes only.
 It is not a substitute for professional medical diagnosis or treatment.
 
-🧑‍💻 Skills Demonstrated
+Skills Demonstrated
 
 Data preprocessing & feature engineering
 
@@ -164,7 +164,8 @@ Production-ready ML pipelines
 
 GitHub documentation & presentation
 
-🌍 Future Improvements
+
+Future Improvements
 
 Try advanced models (Random Forest, XGBoost)
 
@@ -226,8 +227,6 @@ Flat – May indicate moderate heart disease.
 
 Downsloping – Strongly associated with myocardial ischemia (reduced blood flow to the heart).
 
-📬 Contact
+Contact
 
 Author: Julius Duru
-Role: Aspiring Data Scientist | Presales Engineer
-Focus: Machine Learning, Data Science, AI Applications
